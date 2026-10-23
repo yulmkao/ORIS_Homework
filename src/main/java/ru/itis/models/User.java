@@ -1,0 +1,20 @@
+package ru.itis.models;
+
+import lombok.*;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@ToString
+@EqualsAndHashCode
+@Builder
+public class User {
+    private long id;
+    private String name;
+    private String surname;
+    private Integer age;
+    private String email;
+    private String city;
+    private String phone;
+}
